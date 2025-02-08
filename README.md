@@ -17,6 +17,7 @@
   - Y mucho más...
 - **Fácil instalación** con un script automatizado.
 - **Compatibilidad** con Arch Linux y derivados.
+- **Drivers optimizados** para hardware AMD.
 
 ---
 
