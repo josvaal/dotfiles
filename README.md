@@ -13,6 +13,7 @@
   - Barra de estado (`Polybar`)
   - Terminal (`Alacritty`)
   - Editor de texto (`Neovim`)
+  - Fondo de pantalla (`Nitrogen`)
   - Y mucho más...
 - **Fácil instalación** con un script automatizado.
 - **Compatibilidad** con Arch Linux y derivados.
@@ -61,6 +62,7 @@ Aquí tienes una vista previa de mi configuración:
 
 ### Terminal Alacritty con Neovim
 ![Alacritty + Neovim](.config/wallpapers/screenshot-alacritty.png)
+![Alacritty + Neovim + Lazygit](.config/wallpapers/screenshot-alacritty-lazygit.png)
 
 ---
 
