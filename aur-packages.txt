@@ -4,6 +4,7 @@ brave-bin
 catnap-git
 catnap-git-debug
 dooit
+google-chrome
 i3lock-color
 i3lock-color-debug
 insomnia
@@ -12,6 +13,8 @@ lazydocker
 lazydocker-debug
 lowfi
 lowfi-debug
+miraclecast-git
+miraclecast-git-debug
 r2modman-appimage
 relagit
 relagit-debug

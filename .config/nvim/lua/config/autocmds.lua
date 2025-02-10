@@ -6,3 +6,10 @@
 --
 -- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
+
+-- Asocia archivos con extensión .http al tipo de archivo "http"
+vim.filetype.add({
+  extension = {
+    http = "http", -- Asocia *.http al tipo de archivo "http"
+  },
+})

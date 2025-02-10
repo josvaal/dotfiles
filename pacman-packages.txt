@@ -23,6 +23,7 @@ fd
 ffmpeg
 flameshot
 git
+github-cli
 gnome-calculator
 gnome-calendar
 gnome-color-manager
@@ -105,6 +106,7 @@ unrar
 unzip
 vi
 vim
+vlc
 vnstat
 vulkan-radeon
 wget
@@ -118,5 +120,6 @@ xf86-video-ati
 xorg-xinit
 xss-lock
 xterm
+yazi
 yt-dlp
 zed
