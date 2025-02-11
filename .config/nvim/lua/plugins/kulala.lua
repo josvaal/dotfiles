@@ -22,7 +22,25 @@ return {
     { "<leader>Rt", "<cmd>lua require('kulala').toggle_view()<cr>", desc = "Toggle headers/body" },
   },
   config = function()
-    print("Configurando kulala.nvim...")
-    require("kulala").setup()
+    -- print("Configurando kulala.nvim...")
+    require("kulala").setup({
+      contentypes = {
+        ["application/json"] = {
+          formatter = function(response)
+            return vim.fn.system("jq .", response)
+          end,
+        },
+        ["application/xml"] = {
+          formatter = function(response)
+            return vim.fn.system("xmllint --format -", response)
+          end,
+        },
+        ["text/html"] = {
+          formatter = function(response)
+            return vim.fn.system("xmllint --format -", response)
+          end,
+        },
+      },
+    })
   end,
 }

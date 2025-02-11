@@ -44,6 +44,7 @@ iwd
 jdk17-openjdk
 jdk21-openjdk
 jdk8-openjdk
+jq
 lazygit
 lib32-pipewire
 libpulse
@@ -97,6 +98,7 @@ rustup
 sddm
 shotcut
 smartmontools
+spice
 steam
 tk
 totem
@@ -121,5 +123,6 @@ xorg-xinit
 xss-lock
 xterm
 yazi
+yq
 yt-dlp
 zed
